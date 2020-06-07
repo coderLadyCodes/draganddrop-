@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color: rgb(247, 194, 201);
+}
+
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+.fill{
+  background-image: url('books.jpg');   
+  cursor: pointer;
+  width:14em;
+  height:19em;
+  margin:6px;
+}
+
+
+.empty{
+    width:15rem;
+    height:20em;
+    background-color:rgb(247, 229, 229);
+    border: 1px solid white;
+    margin:10px;
+}
+
+
+.hold{
+    border: 5px solid grey;
+}
+
+
+.hovered{
+    background: wheat;
+    border-style: dashed;
+}
+
+
+.invisible{
+    display:none;
+}
