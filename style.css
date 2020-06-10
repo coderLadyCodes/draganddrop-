@@ -13,25 +13,28 @@ body{
 .container{
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
 
 .fill{
   background-image: url('women.jpg');   
-  cursor: pointer;
-  width:14em;
-  height:19em;
-  margin:6px;
+  cursor: move;
+  width:11em;
+  height:16em;
+  
 }
 
 
 .empty{
-    width:15rem;
-    height:20em;
+    width:11rem;
+    height:16em;
     background-color:rgb(247, 229, 229);
     border: 1px solid white;
-    margin:10px;
+    margin:5px;  
 }
 
 
@@ -41,7 +44,7 @@ body{
 
 
 .hovered{
-    background: wheat;
+    background: purple ;
     border-style: dashed;
 }
 
