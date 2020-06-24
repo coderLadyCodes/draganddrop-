@@ -7,6 +7,10 @@
 
 body{
     background-color: rgb(247, 194, 201);
+    font-family: Helvetica;
+    font-weight: bolder;
+    
+    
 }
 
 
@@ -17,39 +21,27 @@ body{
     justify-content: center;
     width:100vw;
     height:100vh;
+    overflow:hidden;
+    
 }
 
 
 
-.fill{
-  background-image: url('women.jpg');  
+.items{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   cursor: move;
   width:11em;
-  height:16em;
-  
+  height:16em; 
 }
 
 
-.empty{
+.list{
+
     width:11rem;
     height:16em;
     background-color:rgb(247, 229, 229);
     border: 1px solid white;
     margin:5px;  
-}
-
-
-.hold{
-    border: 5px solid purple;
-}
-
-
-.hovered{
-    background: purple ;
-    border-style: dashed;
-}
-
-
-.invisible{
-    display: none;
 }
