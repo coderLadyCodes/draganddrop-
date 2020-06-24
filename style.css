@@ -38,7 +38,9 @@ body{
 
 
 .list{
-
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:11rem;
     height:16em;
     background-color:rgb(247, 229, 229);
