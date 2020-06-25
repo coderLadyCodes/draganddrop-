@@ -15,8 +15,10 @@ item.addEventListener('dragstart', function() {
 
 item.addEventListener('dragend', function() {
      setTimeout(function() {
-          draggedItem.style.display = 'block';
-          draggedItem = null;
+          
+          draggedItem.style.display = 'flex';
+          //item.style.display = 'flex';
+          //draggedItem = null;
      }, 0)
 });
 
@@ -36,7 +38,9 @@ list.addEventListener('dragenter', function(e) {
 list.addEventListener('drop', function() {
      
      this.append(draggedItem);
-     
+
+     list.classList.add("el");
+    
      
      
 });

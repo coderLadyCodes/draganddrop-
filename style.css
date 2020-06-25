@@ -47,3 +47,14 @@ body{
     border: 1px solid white;
     margin:5px;  
 }
+
+
+.el{
+    width:11em;
+    height:16em;
+   z-index:0;
+   overflow-wrap:break-word;
+   
+
+   
+}
