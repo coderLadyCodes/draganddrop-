@@ -38,11 +38,8 @@ list.addEventListener('dragenter', function(e) {
 list.addEventListener('drop', function() {
      
      this.append(draggedItem);
-
-     list.classList.add("el");
-    
-     
-     
+     this.classList.add("el");  
+     draggedItem.classList.add("el");  
 });
 }
 }
